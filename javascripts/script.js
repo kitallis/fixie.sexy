@@ -1,4 +1,4 @@
-var numberOfImages = 3
+var numberOfImages = 4
 
 function randomFixieImagePath() {
   return ["images/fixie", Math.floor((Math.random() * numberOfImages) + 1).toString()].join("");
